@@ -1,6 +1,4 @@
 #include<iostream>
-#include<string>
-#include<istream>
 using namespace std;
 struct inf {
 	char fName[100];
