@@ -38,7 +38,7 @@ Cow& Cow::operator=(const Cow &c) {
 void Cow::ShowCow()const {
 	using std::cout;
 	using std::endl;
-	cout << "Name  :  " << name << endl;
-	cout << "Hobby  :  " << hobby << endl;
-	cout << "Weight  :  " << weight << endl << endl;
+	cout << "Name : " << name << endl;
+	cout << "Hobby : " << hobby << endl;
+	cout << "Weight : " << weight << endl << endl;
 }
