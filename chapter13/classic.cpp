@@ -48,3 +48,10 @@ void Classic::Report()const {
 	Cd::Report();
 	std::cout << "Title : " << title << std::endl;
 }
+Classic& Classic::operator=(const Classic &d) {
+	if (this == &d)
+		return *this;
+	Cd::operator=(d);
+	strcpy_s(title, strlen(d.title) + 1, d.title);
+	return *this;
+}

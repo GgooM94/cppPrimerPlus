@@ -25,5 +25,6 @@ public:
 	Classic(char *s1, char *s2,char *s3, int n, double x);
 	Classic();
 	void Report() const;
+	Classic & operator=(const Classic &d);
 };
 #endif // !CD_H
